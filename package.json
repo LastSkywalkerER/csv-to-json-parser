@@ -5,6 +5,7 @@
   "main": "main.ts",
   "scripts": {
     "start": "ts-node --files -r tsconfig-paths/register ./application/main.ts",
+    "generate": "ts-node --files -r tsconfig-paths/register ./application/generate.ts",
     "format": "prettier --write \"application/**/*.ts\" \"libs/**/*.ts\"",
     "lint:fix": "eslint \"{src,application,libs,test}/**/*.ts\" --fix",
     "lint": "eslint \"{src,application,libs,test}/**/*.ts\""

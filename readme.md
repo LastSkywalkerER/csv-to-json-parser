@@ -1,5 +1,20 @@
 # Csv to json parser
 
+## Fast start
+
+```
+yarn start
+```
+
+or
+
+with 10gb csv
+
+```
+yarn generate
+yarn start --sourceFile "C:\Projects\csv-to-json-parser\assets\testLong.csv"
+```
+
 ## Short Description
 
 You need to build a command line tool which allows the user to convert CSV files to JSON.
