@@ -53,18 +53,18 @@ class CsvToJson extends stream.Transform {
       this.lastEnd = end;
 
       callback();
+    } else {
+      this.push(
+        createObjectJsonFromString(this.lastEnd + begin, this.separator, this.header) +
+          ',' +
+          middle.map((string) => createObjectJsonFromString(string, this.separator, this.header)) +
+          ',',
+      );
+
+      this.lastEnd = end;
+
+      callback();
     }
-
-    this.push(
-      createObjectJsonFromString(this.lastEnd + begin, this.separator, this.header) +
-        ',' +
-        middle.map((string) => createObjectJsonFromString(string, this.separator, this.header)) +
-        ',',
-    );
-
-    this.lastEnd = end;
-
-    callback();
   }
 
   _flush(callback: stream.TransformCallback): void {
