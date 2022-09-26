@@ -19,7 +19,7 @@
     "experimentalDecorators": true,
     "paths": {
       "*": ["@types/*"],
-      "@application/*": ["application/*"],
+      "@application/*": ["parser/*"],
       "@libs/*": ["libs/*"],
       "@typings/*": ["typings/*"]
     },

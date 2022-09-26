@@ -1,9 +1,17 @@
+# Commands Task
+
+## Fast start
+
+```
+yarn start-commands
+```
+
 # Csv to json parser
 
 ## Fast start
 
 ```
-yarn start
+yarn start-parser
 ```
 
 or
@@ -11,8 +19,8 @@ or
 with 10gb csv
 
 ```
-yarn generate
-yarn start --sourceFile "C:\Projects\csv-to-json-parser\assets\testLong.csv"
+yarn generate-parser
+yarn start-parser --sourceFile "C:\Projects\csv-to-json-parser\assets\testLong.csv"
 ```
 
 ## Short Description

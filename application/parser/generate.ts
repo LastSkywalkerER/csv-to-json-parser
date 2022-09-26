@@ -10,7 +10,7 @@ import { splitChunkOnArray } from './helpers';
 
 const start = ({ sourceFile }: typeof options) => {
   const readStream = fs.createReadStream(sourceFile, { encoding: 'utf-8' });
-  const writeStream = fs.createWriteStream(path.join(__dirname, '..', 'assets', 'testLong.csv'), { encoding: 'utf-8' });
+  const writeStream = fs.createWriteStream(path.join(__dirname, '..', '..', 'assets', 'testLong.csv'), { encoding: 'utf-8' });
 
   const counter = 10000;
 

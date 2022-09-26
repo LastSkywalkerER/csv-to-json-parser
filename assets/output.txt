@@ -1,0 +1,10 @@
+job 4 - ecgho "Hello, World!!!" error Error: Command failed: ecgho "Hello, World!!!"
+"ecgho" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+job 3 - echo "Hello, World!!" output: "Hello, World!!"
+job 2 - ecgho "Hello, World!" 123 123 123 error Error: Command failed: ecgho "Hello, World!" 123 123 123
+"ecgho" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+job 1 - echo "Hello, World" output: "Hello, World"
+job 5 - echo "Hello, World!!!!" output: "Hello, World!!!!"
+job 6 - echo "Hello, World!!!!" output: "Hello, World!!!!"

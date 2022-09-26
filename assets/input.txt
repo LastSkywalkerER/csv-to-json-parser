@@ -1,0 +1,6 @@
+echo "Hello, World"
+ecgho "Hello, World!" 123 123 123
+echo "Hello, World!!"
+ecgho "Hello, World!!!"
+echo "Hello, World!!!!"
+echo "Hello, World!!!!"

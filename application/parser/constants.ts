@@ -4,8 +4,8 @@ import * as path from 'path';
 export const eol = os.EOL || '\r\n';
 
 const defaultOptions = {
-  sourceFile: path.join(__dirname, '..', 'assets', 'test.csv'),
-  resultFile: path.join(__dirname, '..', 'assets', 'test.json'),
+  sourceFile: path.join(__dirname, '..', '..', 'assets', 'test.csv'),
+  resultFile: path.join(__dirname, '..', '..', 'assets', 'test.json'),
   separator: '',
 };
 

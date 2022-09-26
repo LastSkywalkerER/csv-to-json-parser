@@ -4,8 +4,9 @@
   "description": "This README would normally document whatever steps are necessary to get your application up and running.",
   "main": "main.ts",
   "scripts": {
-    "start": "ts-node --files -r tsconfig-paths/register ./application/main.ts",
-    "generate": "ts-node --files -r tsconfig-paths/register ./application/generate.ts",
+    "start-commands": "ts-node --files -r tsconfig-paths/register ./application/commands/main.ts",
+    "start-parser": "ts-node --files -r tsconfig-paths/register ./application/parser/main.ts",
+    "generate-parser": "ts-node --files -r tsconfig-paths/register ./application/parser/generate.ts",
     "format": "prettier --write \"application/**/*.ts\" \"libs/**/*.ts\"",
     "lint:fix": "eslint \"{src,application,libs,test}/**/*.ts\" --fix",
     "lint": "eslint \"{src,application,libs,test}/**/*.ts\""
